@@ -2,6 +2,7 @@ import { StatusBar, StyleSheet, Text, View } from "react-native";
 import { Link } from "expo-router";
 
 const App = () => {
+  ///new user configuration
   return (
     <View style={styles.container}>
       <Text> Agora!</Text>
