@@ -6,6 +6,7 @@ import Animated, {
   withRepeat,
   withSequence,
 } from 'react-native-reanimated';
+import { styled } from 'nativewind';
 
 import { ThemedText } from '@/components/ThemedText';
 
@@ -23,7 +24,7 @@ export function HelloWave() {
 
   return (
     <Animated.View style={animatedStyle}>
-      <ThemedText style={styles.text}>👋</ThemedText>
+      <ThemedText style={styles.text} className='bg-red-500 text-xl'>👋</ThemedText>
     </Animated.View>
   );
 }
